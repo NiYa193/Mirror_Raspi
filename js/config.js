@@ -11,11 +11,11 @@ var config = {
         interval: 120000,
         fadeInterval: 10000,
         params: {
-            q: 'dalian',
+            q: 'wuhan',
             units: 'metric',
             // if you want a different lang for the weather that what is set above, change it here
             lang: 'zh_cn',
-            APPID: ''
+            APPID: 'cf5c87897786e24ca40a018b4217e68c'
         }
     },
     tem_hum: {
@@ -27,22 +27,22 @@ var config = {
       heatIndexTopic: 'homekit/himitsu/heatIndex'
     },
     compliments: {
-        interval: 30000,
-        fadeInterval: 4000,
+        interval: 5000,
+        fadeInterval: 2000,
         morning: [
-            'Good morning, handsome!',
-            'Enjoy your day!',
-            'How was your sleep?'
+            '早上好, 亲爱滴！',
+            '媳妇媳妇我爱你！',
+            '就像老鼠爱大米！'
         ],
         afternoon: [
-            'Hello, beauty!',
-            'You look sexy!',
-            'Looking good today!'
+            '这里是华中科技大学！',
+            '我是你们的朋友FCC！',
+            '有没有人告诉你！'
         ],
         evening: [
-            'Wow, you look hot!',
-            'You look nice!',
-            'Hi, sexy!'
+            '亲爱滴好美！',
+            '不要熬夜哦！',
+            '一定要想我哦！'
         ]
     },
     calendar: {
