@@ -40,13 +40,12 @@ var config = {
             '有没有人告诉你！'
         ],
         evening: [
-            '我又想你了，亲爱滴！',
+            '亲爱滴好美！',
             '不要熬夜哦！',
-            '一定要想我哦！'
-	    '我改一代码！'
-	    '我再改下代码！'
-	    '感觉自己不能再帅了啊'
-	    'I Love You!'
+            '一定要想我哦！',
+            '我改了下代码！',
+            '我又改了下代码，哈哈。',
+            'I Love You.'
         ]
     },
 
@@ -55,22 +54,22 @@ var config = {
 		displaySymbol: true,
 		defaultSymbol: 'calendar', // Fontawsome Symbol see http://fontawesome.io/cheatsheet/
         urls: [
-		//{
-		//	symbol: 'calendar-plus-o',
-		//	url: ''
-		//},
+		{
+			symbol: 'calendar-plus-o',
+			url: ''
+		},
 		// {
 		// 	symbol: 'soccer-ball-o',
 		// 	url: 'https://www.google.com/calendar/ical/akvbisn5iha43idv0ktdalnor4%40group.calendar.google.com/public/basic.ics',
 		// },
-		{
-			 symbol: 'mars',
-			 url: "https://server/url/to/his.ics",
-		},
-		 //{
-	         //          symbol: 'venus',
-		//	   url: "https://server/url/to/hers.ics",
-		 //},
+		// {
+			// symbol: 'mars',
+			// url: "https://server/url/to/his.ics",
+		// },
+		// {
+			// symbol: 'venus',
+			// url: "https://server/url/to/hers.ics",
+		// },
 		// {
 			// symbol: 'venus-mars',
 			// url: "https://server/url/to/theirs.ics",
