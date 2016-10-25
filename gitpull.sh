@@ -2,4 +2,4 @@
 
 cd /var/www/html/
 git pull origin master
-python refresh.py
+#python /var/www/html/refresh.py
